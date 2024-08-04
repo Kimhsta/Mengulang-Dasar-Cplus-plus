@@ -1,9 +1,9 @@
 #include <iostream>
 using namespace std;
 
-void Vbalok()
+void Vbalok(int p, int l, int t)
 {
-    int p, l, t, vol;
+    int vol;
 
     cout << "Panjang = ";
     cin >> p;
@@ -18,5 +18,6 @@ void Vbalok()
 
 main()
 {
-    Vbalok();
+    int pnj, lb, tg;
+    Vbalok(pnj, lb, tg);
 }
