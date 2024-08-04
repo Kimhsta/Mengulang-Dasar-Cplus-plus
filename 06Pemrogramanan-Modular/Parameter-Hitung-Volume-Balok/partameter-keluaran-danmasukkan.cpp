@@ -6,7 +6,7 @@ void volume(int &vol, int p, int l, int t)
     vol = p * l * t;
 }
 
-mian()
+main()
 {
     int pj, lb, tg, hsl;
 
@@ -18,7 +18,6 @@ mian()
     cin >> tg;
 
     volume(hsl, pj, lb, tg);
-    cout << "\n  Hasil Hitungan Volume : ";
-    cin >> hsl;
+    cout << "\n  Hasil Hitungan Volume : " << hsl;
     return 0;
 }
